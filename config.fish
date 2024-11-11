@@ -11,6 +11,7 @@ alias c "clear"
 
 # path
 set -gx EDITOR nvim
+fish_add_path -g /home/ryanu/.cargo/bin
 
 abbr g git
 abbr rm 'rm -rf'
